@@ -5,8 +5,4 @@
     <RootNamespace>Front_End_Activity</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="HTML\" />
-  </ItemGroup>
-
 </Project>
