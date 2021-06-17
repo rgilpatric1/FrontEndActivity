@@ -1,5 +1,10 @@
 ﻿body {
-    background-color: black;
+    background-color: #363636;
     color: lightgray;
     font-family: 'Comic Sans MS';
+}
+
+img {
+    padding-left: 1%;
+    padding-right: 1%;
 }
