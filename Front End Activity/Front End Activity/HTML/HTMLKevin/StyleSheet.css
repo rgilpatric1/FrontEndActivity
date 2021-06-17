@@ -15,3 +15,11 @@ a{
 .bulletTitle{
     
 }
+
+img{
+    padding:1%;
+}
+
+img.mediapage{
+    width:28%;
+}
