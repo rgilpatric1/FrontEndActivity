@@ -5,4 +5,8 @@
     <RootNamespace>Front_End_Activity</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="HTML\HTMLKevin\HTML Activity - Resources\Media\" />
+  </ItemGroup>
+
 </Project>

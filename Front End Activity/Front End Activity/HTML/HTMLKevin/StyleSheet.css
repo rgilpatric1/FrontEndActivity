@@ -1,25 +1,24 @@
 ﻿body {
     background-color: beige;
-    font-family:'Century Gothic';
-    margin:3%;
-    margin-top:1%;
+    font-family: 'Century Gothic';
 }
 
-h1{
-
-}
-a{
-    color:blue;
-    padding:5%;
-}
-.bulletTitle{
-    
+h1 {
 }
 
-img{
-    padding:1%;
+a {
+    color: blue;
+    padding: 5%;
+    font-weight:bold;
 }
 
-img.mediapage{
-    width:28%;
+.bulletTitle {
 }
+
+img {
+    padding: 1%;
+}
+
+    img.mediapage {
+        width: 28%;
+    }

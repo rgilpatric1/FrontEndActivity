@@ -3,44 +3,90 @@
 <head>
     <meta charset="utf-8" />
     <title>Code The Way Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="OurSite.js"></script>
 </head>
-<body>
-    <img src="CTW-CodeTheWay Logo.png" />
-    <h1 align="center">Code The Way</h1>
 
-    <h4>Mission</h4>
-    <p>
-        Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced compute
-        r science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute
-        to the technology talent base.
-    </p>
-    <p class="bulletTitle">Code the Way model includes:</p>
-    <ul>
+<body onload="showHide()">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="CTW-CodeTheWay Logo.png" />
+            </div>
+            <div class="col-sm-10">
+                <h1 align="center">Code The Way</h1>
+            </div>
+        </div>
 
-        <li>
-            Student access to real-world job experience – In addition to an advanced course that may earn post-secondary credits, students get experience working collabo
-            ratively on a project that benefits a nonprofit, culminating in a presentation to business leaders.
-        </li>
+        <div class="row"></div>
 
-        <li>
-            Companies are part of the solution – Companies invest in education, make technology more accessible to nonprofits, offer their employees a meaningful volunte
-            er experience, and contribute to the talent pipeline.
-        </li>
+        <div class="row">
+            <div class="col-sm-3">
+                <h4></h4>
+            </div>
+            <div class="col-sm-3">
+                <a href="Page2.html">Life Navigators</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="Page3.html">Heroes for Healthcare</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="Page4.html">Media</a>
+            </div>
+        </div>
 
-        <li>
-            Increasing certified computer science teachers – Support and training for computer science teacher certification increase the availability and quality of high s
-            chool computer science programs.
-        </li>
-    </ul>
-    <img src="CTW-Team Learning.jpg" align="right" />
-    <h4 align="right">Vision</h4>
-    <p align="right">
-        High school students in Greater Milwaukee have access to high-quality computer science education and real-world job experiences, positioning
-        them for success in technology-related fields.
-    </p>
-    <a href="Page2.html">Life Navigators</a>
-    <a href="Page3.html">Heroes for Healthcare</a>
-    <a href="Page4.html">Media</a>
+        <div class="row">
+            <div class="col-sm-2">
+                <h4>Mission</h4>
+            </div>
+            <div class="col-sm-10">
+                <p>
+                    Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced compute
+                    r science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and 
+                    (3) Contribute to the technology talent base.
+                </p>
+            </div>
+        </div>
+        
+        
+        <p class="bulletTitle">Code the Way model includes:</p>
+        <ul>
+
+            <li>
+                Student access to real-world job experience – In addition to an advanced course that may earn post-secondary credits, students get experience working collabo
+                ratively on a project that benefits a nonprofit, culminating in a presentation to business leaders.
+            </li>
+
+            <li>
+                Companies are part of the solution – Companies invest in education, make technology more accessible to nonprofits, offer their employees a meaningful volunte
+                er experience, and contribute to the talent pipeline.
+            </li>
+
+            <li>
+                Increasing certified computer science teachers – Support and training for computer science teacher certification increase the availability and quality of high s
+                chool computer science programs.
+            </li>
+        </ul>
+        <img src="CTW-Team Learning.jpg" align="right" />
+
+        <button onclick="showHide()">Show Vision</button>
+
+        <div id="vision">
+            <h4>Vision</h4>
+            <p>
+                High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success
+                in technology-related fields.
+            </p>
+        </div>
+
+
+        
+        
+        
+    </div>
+
 </body>
 </html>
