@@ -7,6 +7,10 @@
 
   <ItemGroup>
     <Folder Include="HTML\" />
+    <Folder Include="HTML\SumanthKota\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="HTML\SumanthKota\" />
+  </ItemGroup>
 </Project>
