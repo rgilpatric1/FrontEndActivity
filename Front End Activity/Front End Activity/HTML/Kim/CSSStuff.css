@@ -1,0 +1,11 @@
+﻿body {
+    font-family: "Comic Sans MS";
+    color: lightgray;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+img.mediapage{
+   width: 33%;
+}
