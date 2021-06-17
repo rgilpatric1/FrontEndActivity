@@ -4,6 +4,7 @@
 }
 
 h1 {
+    padding-top:3%;
 }
 
 a {
@@ -22,3 +23,7 @@ img {
     img.mediapage {
         width: 28%;
     }
+
+.row{
+    padding-bottom:3%;
+}
