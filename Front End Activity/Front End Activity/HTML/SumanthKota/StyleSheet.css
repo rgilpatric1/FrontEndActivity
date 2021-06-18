@@ -2,3 +2,25 @@
     background-color: aqua;
     font-family:'Lucida Sans';
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.image {
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.bottomimage {
+
+    float: right;
+    width: 50%;
+    height: 50%;
+}
