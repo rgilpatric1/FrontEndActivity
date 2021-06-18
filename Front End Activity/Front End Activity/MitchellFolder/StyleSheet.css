@@ -5,11 +5,14 @@
 }
 
 img {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 1%;
 }
 
 container {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+button {
+    color: black;
 }
